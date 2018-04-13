@@ -4,3 +4,6 @@
 
 listName = input('Enter some words: ').split(' ')
 listName.sort()
+
+for item in listName:
+    print(item)
