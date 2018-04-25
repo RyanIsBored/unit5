@@ -8,4 +8,6 @@ i=1
 while i<=20:
     h.append(randint(1,100))
     i=i+1
-print(h)
+print(sum(h))
+print(min(h))
+print(max(h))
